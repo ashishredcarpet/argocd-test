@@ -5,8 +5,9 @@ metadata:
   labels:
     app: servicelabel
 spec:
-  type: NodePort
   ports:
     - port: 7000
+      protocol: TCP
+      targetPort: 80
   selector:
     app: "2048"
