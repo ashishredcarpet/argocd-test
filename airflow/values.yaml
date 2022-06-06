@@ -1,0 +1,4 @@
+airflow:
+  legacyCommands: false
+  createUserJob.useHelmHooks: false
+  migrateDatabaseJob.useHelmHooks: false
